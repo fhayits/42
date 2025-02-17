@@ -12,5 +12,6 @@ sum_juft = sum(x for x in nums if x % 2 == 0)
 print(sum_juft)
 
 print("hello world")
+print((i for i in range(10000000000000))
 
 
