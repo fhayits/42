@@ -1,0 +1,33 @@
+	Git bu dasturlarimizni versiyalsh uchun ishlatamiz bu bizga xar bitta biz xoxlagan joyigacha o'zgarishlarini
+saqlab boradigan dastur desak ham bo'ladi git bilan bir qancha buyruqlarni bajaramiz 
+git yaratish git init bu .git fileini yaratib beradi 
+git configuratsiyalarni sozlash :
+git config --global user.name "username" 
+git config --global user.email "emailname"
+git config --global core.editor "editor_name"
+git alias.new_command "command"
+git config --global --upset user.name
+git branch 
+git branch new_branch_name
+git branch -m old_branch_name new_branch_name
+git branch -m new_branch_name
+git checkout new_branch_name
+git merge branch_name
+git commit -m "commit" -m bu messageni bildiradi
+git commit --amend desak bu oxirgi commentni o'zgartiradi
+git diff bu o'zgarishlarni ko'rsatadi 
+git log bu commentlar ro'yxati 
+git log --oneline bu commentlarni o'zini ko'rastadi
+git remote add "server_name" link bunda remote server ya'ni tashqi komp add qo'shish origin
+git push origin branch_name 
+yoki git push -u origin branch_name
+-u eslab qoladi va ushbu banchdan turib git push yoki git pul qilsh uchun 
+.gitignore file haqida
+
+ushbu file biz berlgilagan filelarni ignore qiladi masalan qanday yozish
+file.txt bu ayanan ushbu fileni ignore qiladi va untract demaydi
+*.txt bu esa dasturimizni bosh folderidan rekrusiv tarzda .txt bilan tugagan filelarni ignore qiladi
+data/ bu data folderi bilan boshlangan filelarni ignore qiladi
+data/**/*.txt bu data folderi bilan boslangan va aynan ushbu filelarning ichidagi .txt bilan tugagan filelarni ignore qiladi va shu folderdan bosqasini etiborga olmaydi
+file yaratish touch salom{1..10}.txt mkdir folder1 folder2 ... or mkdir {1..10} 
+
