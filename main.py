@@ -10,3 +10,7 @@ print(*nums_t)
 
 sum_juft = sum(x for x in nums if x % 2 == 0)
 print(sum_juft)
+
+print("hello world")
+
+
